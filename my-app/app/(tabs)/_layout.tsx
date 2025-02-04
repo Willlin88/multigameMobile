@@ -26,6 +26,16 @@ export default function TabLayout() {
           default: {},
         }),
       }}>
+
+      <Tabs.Screen
+        name="stopTimer"
+        options={{
+          title: 'Stop Timer',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarButton: () => null, // Hides the tab button
+
+        }}
+      />
       <Tabs.Screen
         name="index"
         options={{
@@ -34,10 +44,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="gameDerivative"
         options={{
-          title: 'Explore',
+          title: 'Game Derivative',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarButton: () => null, // Hides the tab button
+
         }}
       />
     </Tabs>
