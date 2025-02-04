@@ -42,10 +42,10 @@ export default function HomeScreen() {
 
       {!isSubmitted ? (
         <View style={styles.content}>
-          <ThemedText type="subtitle">Enter your username:</ThemedText>
+          <ThemedText type="subtitle">Enter your gamer tag:</ThemedText>
           <TextInput
             style={styles.textInput}
-            placeholder="Enter your username"
+            placeholder="Enter your gamer tag"
             placeholderTextColor="#999"
             value={username}
             onChangeText={setUsername} // Updates state on user input
