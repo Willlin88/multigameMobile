@@ -36,11 +36,29 @@ export default function TabLayout() {
 
         }}
       />
+            <Tabs.Screen
+        name="interesting"
+        options={{
+          title: 'placeholder',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarButton: () => null, // Hides the tab button
+
+        }}
+      />
       <Tabs.Screen
         name="index"
         options={{
           title: 'Home',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+        }}
+      />
+                  <Tabs.Screen
+        name="BreakBrick"
+        options={{
+          title: 'Break Brick',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarButton: () => null, // Hides the tab button
+
         }}
       />
       <Tabs.Screen
