@@ -65,6 +65,8 @@ export default function HomeScreen() {
           <View style={styles.buttonContainer}>
             <Button title="🎯 Stop Timer Game" onPress={() => router.push('/stopTimer')} />
             <Button title="📈 Game Derivative" onPress={() => router.push('/gameDerivative')} />
+            <Button title="🧱 Break Brick" onPress={() => router.push('/BreakBrick')} />
+
           </View>
         </ThemedView>
       )}

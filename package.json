@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "matter-js": "^0.20.0",
+    "react-native-game-engine": "^1.2.0"
+  }
+}

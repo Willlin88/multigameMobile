@@ -1,2 +1,3 @@
 .env
 my-app/.env
+my-app/node_modules/*
